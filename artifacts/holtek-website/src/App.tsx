@@ -18,7 +18,7 @@ function Home() {
         <motion.img
           src={logoSrc}
           alt="Holtek Solutions LLC"
-          className="mb-16 w-52 md:w-80"
+          className="mb-16 w-36 md:w-48 lg:w-56"
           data-testid="img-logo"
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
