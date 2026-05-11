@@ -1,0 +1,26 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "xg21UDhk_ugdkVhquEJo_"
+uri = "file://artifacts/holtek-website/public/hero-bg.png"
+type = "image"
+title = "Abstract tech command center"
+
+[[generated]]
+id = "7czSrMbmGMfG0JirNw-VY"
+uri = "file://artifacts/holtek-website/public/services-it.png"
+type = "image"
+title = "Server room server rack"
+
+[[generated]]
+id = "fARpMp-7I7nlhTl5lxvpF"
+uri = "file://artifacts/holtek-website/public/services-cloud.png"
+type = "image"
+title = "Cloud computing abstract"
+
+[[generated]]
+id = "BA-MCLrw_OUJnckNjhIkX"
+uri = "file://artifacts/holtek-website/public/sacramento.png"
+type = "image"
+title = "Sacramento city subtle"
