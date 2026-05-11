@@ -1,0 +1,38 @@
+==> Downloading cache...
+==> Cloning from https://github.com/tmenna/holtekllc
+==> Checking out commit 3a0f48a0550a26c28d48cd324a0235a56bf3fc77 in branch main
+==> Downloaded 157MB in 3s. Extraction took 10s.
+==> Installing dependencies with pnpm...
+==> Using Node.js version 24.14.1 (default)
+==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+Scope: all 9 workspace projects
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +486
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 486, reused 0, downloaded 1, added 0
+Progress: resolved 486, reused 0, downloaded 13, added 0
+Progress: resolved 486, reused 0, downloaded 53, added 13
+Progress: resolved 486, reused 0, downloaded 124, added 37
+Progress: resolved 486, reused 0, downloaded 218, added 70
+Progress: resolved 486, reused 0, downloaded 271, added 87
+Progress: resolved 486, reused 0, downloaded 282, added 89
+Progress: resolved 486, reused 0, downloaded 286, added 92
+Progress: resolved 486, reused 0, downloaded 290, added 93
+Progress: resolved 486, reused 0, downloaded 292, added 93
+Progress: resolved 486, reused 0, downloaded 295, added 93
+Progress: resolved 486, reused 0, downloaded 297, added 93
+Progress: resolved 486, reused 0, downloaded 337, added 105
+Progress: resolved 486, reused 0, downloaded 391, added 122
+Progress: resolved 486, reused 0, downloaded 451, added 142
+Progress: resolved 486, reused 0, downloaded 481, added 150
+Progress: resolved 486, reused 0, downloaded 486, added 290
+Progress: resolved 486, reused 0, downloaded 486, added 391
+Progress: resolved 486, reused 0, downloaded 486, added 486, done
+devDependencies:
++ prettier 3.8.1
++ typescript 5.9.3
+. preinstall$ rm -f package-lock.json yarn.lock
+. preinstall: Done
+[ERR_PNPM_IGNORED_BUILDS] Ignored build scripts: esbuild@0.27.3
+Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.
