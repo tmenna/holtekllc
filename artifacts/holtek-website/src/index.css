@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800;900&family=Barlow:wght@400;500;600&display=swap');
 
 @import "tailwindcss";
 @import "tw-animate-css";
@@ -69,7 +69,7 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-/* LIGHT MODE - Warm Sand & Deep Slate Teal */
+/* LIGHT MODE - Holtek Brand: Deep Navy + Electric Blue */
 :root {
   --button-outline: rgba(0,0,0, .10);
   --badge-outline: rgba(0,0,0, .05);
@@ -77,60 +77,60 @@
   --elevate-1: rgba(0,0,0, .03);
   --elevate-2: rgba(0,0,0, .08);
 
-  /* Background: Warm Sand */
-  --background: 36 33% 97%;
-  /* Foreground: Deep Slate Teal */
-  --foreground: 195 40% 15%;
+  /* Background: White */
+  --background: 0 0% 100%;
+  /* Foreground: Deep Navy */
+  --foreground: 234 38% 16%;
 
-  --border: 36 20% 90%;
-  --card: 36 33% 97%;
-  --card-foreground: 195 40% 15%;
-  --card-border: 36 20% 90%;
+  --border: 220 20% 90%;
+  --card: 0 0% 100%;
+  --card-foreground: 234 38% 16%;
+  --card-border: 220 20% 90%;
 
-  --sidebar: 36 33% 97%;
-  --sidebar-foreground: 195 40% 15%;
-  --sidebar-border: 36 20% 90%;
-  --sidebar-primary: 195 40% 15%;
-  --sidebar-primary-foreground: 36 33% 97%;
-  --sidebar-accent: 36 20% 90%;
-  --sidebar-accent-foreground: 195 40% 15%;
-  --sidebar-ring: 195 40% 15%;
+  --sidebar: 0 0% 100%;
+  --sidebar-foreground: 234 38% 16%;
+  --sidebar-border: 220 20% 90%;
+  --sidebar-primary: 234 38% 16%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 220 20% 94%;
+  --sidebar-accent-foreground: 234 38% 16%;
+  --sidebar-ring: 204 100% 44%;
 
-  --popover: 36 33% 97%;
-  --popover-foreground: 195 40% 15%;
-  --popover-border: 36 20% 90%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 234 38% 16%;
+  --popover-border: 220 20% 90%;
 
-  /* Primary: Deep Slate Teal */
-  --primary: 195 40% 15%;
-  --primary-foreground: 36 33% 97%;
+  /* Primary: Deep Navy */
+  --primary: 234 38% 16%;
+  --primary-foreground: 0 0% 100%;
 
-  /* Secondary: Terracotta/Rust accent */
-  --secondary: 15 50% 50%;
-  --secondary-foreground: 36 33% 97%;
+  /* Secondary: Electric Blue */
+  --secondary: 204 100% 44%;
+  --secondary-foreground: 0 0% 100%;
 
-  --muted: 36 20% 90%;
-  --muted-foreground: 195 20% 40%;
+  --muted: 220 20% 94%;
+  --muted-foreground: 234 20% 45%;
 
-  --accent: 36 20% 90%;
-  --accent-foreground: 195 40% 15%;
+  --accent: 204 100% 44%;
+  --accent-foreground: 0 0% 100%;
 
   --destructive: 0 70% 50%;
   --destructive-foreground: 0 0% 100%;
 
-  --input: 36 20% 85%;
-  --ring: 195 40% 15%;
+  --input: 220 20% 88%;
+  --ring: 204 100% 44%;
 
-  --chart-1: 195 40% 15%;
-  --chart-2: 15 50% 50%;
-  --chart-3: 195 20% 40%;
-  --chart-4: 36 20% 80%;
+  --chart-1: 234 38% 16%;
+  --chart-2: 204 100% 44%;
+  --chart-3: 234 20% 45%;
+  --chart-4: 220 20% 80%;
   --chart-5: 0 0% 20%;
 
-  --app-font-sans: 'Plus Jakarta Sans', sans-serif;
-  --app-font-display: 'Space Grotesk', sans-serif;
+  --app-font-sans: 'Barlow', sans-serif;
+  --app-font-display: 'Exo 2', sans-serif;
   --app-font-serif: Georgia, serif;
   --app-font-mono: Menlo, monospace;
-  --radius: 0rem; /* Sharp edges for structural tech feel */
+  --radius: 0rem;
 
   --shadow-2xs: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
   --shadow-xs: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
@@ -157,51 +157,49 @@
   --elevate-1: rgba(255,255,255, .04);
   --elevate-2: rgba(255,255,255, .09);
 
-  /* Background: Deep Slate Teal */
-  --background: 195 40% 10%;
-  /* Foreground: Warm Sand */
-  --foreground: 36 33% 97%;
+  --background: 234 38% 10%;
+  --foreground: 0 0% 96%;
 
-  --border: 195 30% 20%;
-  --card: 195 40% 12%;
-  --card-foreground: 36 33% 97%;
-  --card-border: 195 30% 20%;
+  --border: 234 30% 22%;
+  --card: 234 38% 12%;
+  --card-foreground: 0 0% 96%;
+  --card-border: 234 30% 22%;
 
-  --sidebar: 195 40% 12%;
-  --sidebar-foreground: 36 33% 97%;
-  --sidebar-border: 195 30% 20%;
-  --sidebar-primary: 36 33% 97%;
-  --sidebar-primary-foreground: 195 40% 10%;
-  --sidebar-accent: 195 30% 20%;
-  --sidebar-accent-foreground: 36 33% 97%;
-  --sidebar-ring: 36 33% 97%;
+  --sidebar: 234 38% 12%;
+  --sidebar-foreground: 0 0% 96%;
+  --sidebar-border: 234 30% 22%;
+  --sidebar-primary: 0 0% 96%;
+  --sidebar-primary-foreground: 234 38% 10%;
+  --sidebar-accent: 234 30% 22%;
+  --sidebar-accent-foreground: 0 0% 96%;
+  --sidebar-ring: 204 100% 44%;
 
-  --popover: 195 40% 12%;
-  --popover-foreground: 36 33% 97%;
-  --popover-border: 195 30% 20%;
+  --popover: 234 38% 12%;
+  --popover-foreground: 0 0% 96%;
+  --popover-border: 234 30% 22%;
 
-  --primary: 36 33% 97%;
-  --primary-foreground: 195 40% 10%;
+  --primary: 0 0% 96%;
+  --primary-foreground: 234 38% 10%;
 
-  --secondary: 15 50% 50%;
-  --secondary-foreground: 36 33% 97%;
+  --secondary: 204 100% 44%;
+  --secondary-foreground: 0 0% 100%;
 
-  --muted: 195 30% 20%;
-  --muted-foreground: 195 10% 60%;
+  --muted: 234 30% 22%;
+  --muted-foreground: 234 10% 65%;
 
-  --accent: 195 30% 20%;
-  --accent-foreground: 36 33% 97%;
+  --accent: 204 100% 44%;
+  --accent-foreground: 0 0% 100%;
 
   --destructive: 0 70% 40%;
   --destructive-foreground: 0 0% 100%;
 
-  --input: 195 30% 25%;
-  --ring: 36 33% 97%;
+  --input: 234 30% 28%;
+  --ring: 204 100% 44%;
 
-  --chart-1: 36 33% 97%;
-  --chart-2: 15 50% 50%;
-  --chart-3: 195 10% 60%;
-  --chart-4: 195 30% 30%;
+  --chart-1: 0 0% 96%;
+  --chart-2: 204 100% 44%;
+  --chart-3: 234 10% 65%;
+  --chart-4: 234 30% 35%;
   --chart-5: 0 0% 80%;
 }
 
