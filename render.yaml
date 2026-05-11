@@ -1,7 +1,7 @@
 services:
   - type: web
     name: holtek-website
-    runtime: static
+    env: static
     buildCommand: npm install -g pnpm && pnpm install --frozen-lockfile && BASE_PATH=/ pnpm --filter @workspace/holtek-website run build
     staticPublishPath: artifacts/holtek-website/dist/public
     pullRequestPreviewsEnabled: true
