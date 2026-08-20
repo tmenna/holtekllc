@@ -78,6 +78,16 @@ function Home() {
                 +1 (951) 551-4528
               </a>
             </div>
+            <div data-testid="footer-email">
+              <div className="text-xs font-semibold tracking-widest uppercase mb-2 text-white/50">Email</div>
+              <a
+                href="mailto:teki@holteksolutions.com"
+                className="text-white/85 text-sm transition-colors hover:text-white"
+                data-testid="link-email"
+              >
+                teki@holteksolutions.com
+              </a>
+            </div>
           </div>
           <div className="text-white/30 text-xs sm:text-right">
             &copy; {new Date().getFullYear()} Holtek Solutions LLC
