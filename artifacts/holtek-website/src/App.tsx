@@ -25,7 +25,7 @@ function Home() {
           >
             Technology<br />
             solutions<br />
-            <span className="text-foreground">that simplify</span><br />
+            <span className="text-foreground">for better</span><br />
             <span className="text-foreground">operations.</span>
           </h1>
         </motion.div>
@@ -44,7 +44,7 @@ function Home() {
             className="text-2xl md:text-3xl lg:text-4xl font-sans font-light leading-snug text-foreground/65"
             data-testid="text-mission"
           >
-            Helping organizations improve workflows, manage systems, and support day-to-day business operations.
+            Helping businesses and organizations modernize systems, streamline processes, and build digital solutions that support their everyday operations.
           </p>
         </motion.div>
 
